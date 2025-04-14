@@ -1,0 +1,65 @@
+<html>
+    <head>
+  <title>rianty'sWeb</title>
+  <link rel="stylesheet" href="form.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>  
+      <section class="home">
+    <nav>
+    <div class="">
+        <img src="logo.png">
+    </div>
+    <header>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About Me</a>
+        </li>
+        <li>
+          <a href="#">Portofolio</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <img src="fotodiri.jpg">
+      <h1 class="judul">Hello, I'm Rianty</h1>
+      <p class="judul2">I'm Rianti Eka Putri and Welcome in My First Portofolio Web Site.</p>
+    </div>
+      </section>
+      <!--abput me pake paraghrap, center-->
+      <section class="About">
+        <h1>About Me</h1>
+        <!--pake foto biodata-->
+        <p>Bonjour! Perkenalkan, namaku Rianti Eka Putri Tambun lahir di Bogor tepatnya pada tanggal 07 Januari 2009, 
+          sewaktu masa Taman Kanak-Kanak aku di perkenalkan pembelajaran komputer dari sekolahku, dari situ
+          aku mulai tertarik dengan komputer maupun laptop terlebih orangtua ku sehari-harinya menggunakan komputer menjadi alat kerjanya
+          yang menjadi inspirasiku di dunia IT, kemudian dari pada itu aku memutuskan mengambil sekolah kejuruan di bidang IT. Saat ini keahlianku 
+          belum....
+        </p>
+      </section>
+      <section class="skills">
+        <div class="progress" data-bar="75">
+          <div class="box1">
+            Processing 75%
+          </div>
+        </div>  
+
+        <script>
+          const progress = document.querySelector('box1');
+          setTimeout(()=> {
+            progress.style.opacity = 1;
+            progress.style.width = progress.getAttribute('data-bar') + '%' ;
+          })
+        </script>
+      </section>
+  </header>
+</body>
+</html>
